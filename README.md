@@ -8,7 +8,7 @@ Please have a look at our navigation or just browse around in the `docs` folder.
 For faster navigation within the documentation (it grew quite long):
 
 - [Getting started](<TechDivision_AppserverDocumentation/tree/master/docs/getting-started>)
-	* [Installation](<#installation>)
+	* [Installation](<docs/getting-started/installation.md>)
 		- [Mac OS X](<#mac-os-x>)
 		- [Windows](<#windows>)
 		- [Debian](<#debian>)
