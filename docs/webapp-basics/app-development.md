@@ -1,7 +1,7 @@
 # App Development
 This is a "getting started" tutorial for everyone who wants to learn about the appserver speciality: servlets.
 It will guide you through setting up your first webapp, which serves HTTP requests. All necessary steps are explained in
-detail. It is assumed that you already installed the appserver as described [here](<#installation>).
+detail. It is assumed that you already installed the appserver as described [here](<doc/getting-started/installation.md>).
 
 ## Let's get started
 We have a webapp stub which you can use for this tutorial. You can get it using composer by executing the following command:
@@ -23,6 +23,8 @@ do it now by typing using the appropriate restart commands as described [here](<
 By default the appserver is running on port 9080. Therefore head over to ``127.0.0.1:9080/myfirstapp/demo.do``. Notice the webapp
 name in the url, if you have chosen something else as the name, use it instead of *myfirstapp*.
 The basic app stub should be visible.
+
+![myfirstapp landing page](../../images/myfirstapp.png)
 
 Let's look into some source code to get to know where the `.do` comes from. Open up your webapps folder ``webapps/myfirstapp``
 in your favourite editor. You will see that the structure of the web application is similar to webapp structures of [Tomcat](<http://en.wikipedia.org/wiki/Apache_Tomcat>) or WildFly. 
