@@ -1,7 +1,7 @@
 # App Development
 This is a "getting started" tutorial for everyone who wants to learn about the appserver speciality: servlets.
 It will guide you through setting up your first webapp, which serves HTTP requests. All necessary steps are explained in
-detail. It is assumed that you already installed the appserver as described [here](<doc/getting-started/installation.md>).
+detail. It is assumed that you already installed the appserver as described [here](<docs/getting-started/installation.md>).
 
 ## Let's get started
 We have a webapp stub which you can use for this tutorial. You can get it using composer by executing the following command:
