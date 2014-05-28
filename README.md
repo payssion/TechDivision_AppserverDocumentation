@@ -7,7 +7,7 @@ Please have a look at our navigation or just browse around in the `docs` folder.
 ## Navigation
 For faster navigation within the documentation (it grew quite long):
 
-- [Getting started](<docs/getting-started/README.md>)
+- [Getting started](<docs/getting-started/>)
 	* [Installation](<docs/getting-started/installation.md>)
 		- [Mac OS X](<docs/getting-started/installation.md#mac-os-x>)
 		- [Windows](<docs/getting-started/installation.md#windows>)
