@@ -7,7 +7,7 @@ Please have a look at our navigation or just browse around in the `docs` folder.
 ## Navigation
 For faster navigation within the documentation (it grew quite long):
 
-- [Getting started](<#getting-started>)
+- [Getting started](<TechDivision_AppserverDocumentation/tree/master/docs/getting-started>)
 	* [Installation](<#installation>)
 		- [Mac OS X](<#mac-os-x>)
 		- [Windows](<#windows>)
