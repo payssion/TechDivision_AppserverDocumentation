@@ -351,7 +351,7 @@ class CustomerProcessor extends AbstractProcessor
 ```
 
 You may have noticed the ``@Singleton`` above the class name. This exhibits that
-the customer processor is a singleton bean. It means that only one instance of it is created which is necessary as therecould be conflicts while persisting otherwise. There are also stateless and stateful beans which are for other purposes, as they
+the customer processor is a singleton bean. It means that only one instance of it is created which is necessary as there could be conflicts while persisting otherwise. There are also stateless and stateful beans which are for other purposes, as they
 either know the state between two requests of the same user or not. The ``persist()`` method gets the doctrine entity
 manager in order to persist entities. After successful persistence we want to display all entities in the frontend. We
 therefore implement the following method into our customer processor.
