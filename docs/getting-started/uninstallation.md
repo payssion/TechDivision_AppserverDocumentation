@@ -6,4 +6,4 @@ To uninstall the appserver on Linux you might rely on your package management sy
 On Windows you can use the normal uninstall process provided by the operating system.
 
 Under Mac OS X you can simply delete the `/opt/appserver` folder and delete the configuration
-files for the launch deameons. These are files are located in folder `/Library/LaunchDaemons` and named `io.appserver.<DAEMON>.plist`.
+files for the launch daemons. These are files are located in folder `/Library/LaunchDaemons` and named `io.appserver.<DAEMON>.plist`.
