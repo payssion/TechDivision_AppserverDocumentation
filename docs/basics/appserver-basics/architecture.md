@@ -33,4 +33,4 @@ Something which can be considered another (but external) "engine" are [FastCGI](
 
 An overview of how this building blocks can form a multi-service architecture is given below.
 It shows a basic setup of services one might want to use within a web environment.
-![myfirstapp landing page](../../images/architecture.png)
+![myfirstapp landing page](../../../images/architecture.png)
