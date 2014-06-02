@@ -1,7 +1,7 @@
 # App Development
 This is a "getting started" tutorial for everyone who wants to learn about the appserver speciality: servlets.
 It will guide you through setting up your first webapp, which serves HTTP requests. All necessary steps are explained in
-detail. It is assumed that you already installed the appserver as described [here](<../getting-started/installation.md>).
+detail. It is assumed that you already installed the appserver as described [here](<../../getting-started/installation.md>).
 
 ## Let's get started
 We have a webapp stub which you can use for this tutorial. You can get it using composer by executing the following command:
@@ -18,7 +18,7 @@ ant deploy
 ```
 
 *myfirstapp* is the name of the webapp, it is necessary to call it by url. If you haven't already started the appserver
-do it now by typing using the appropriate restart commands as described [here](<#start-and-stop-scripts>).
+do it now by typing using the appropriate restart commands as described [here](<../../getting-started/basic-usage.md#start-and-stop-scripts>).
 
 By default the appserver is running on port 9080. Therefore head over to ``127.0.0.1:9080/myfirstapp/demo.do``. Notice the webapp
 name in the url, if you have chosen something else as the name, use it instead of *myfirstapp*.
@@ -52,7 +52,7 @@ you will find the defined servlet. This servlet can now be used in a route mappi
 ```
 
 This means that the servlet `DemoServlet` is mapped to every URI (or PATH_INFO if your app is not your document root) and will therefor handle every request to your app.
-So why the `.do`? As you will learn [later](<#technical-background-and-architecture>) the appserver's work-horse is the *Server* component. And simply put: the server responsible for http requests needs to know when it has to handle servlets.
+So why the `.do`? As you will learn [later](<../appserver-basics/architecture.md>) the appserver's work-horse is the *Server* component. And simply put: the server responsible for http requests needs to know when it has to handle servlets.
 So consider the `.do` a, in this case imaginary, file extension like .php or .html.
 
 So try some other URI patterns here e.g. `/demo.do*`, restart the appserver and test them in the browser's url bar. It will always call the
