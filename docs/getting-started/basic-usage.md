@@ -11,7 +11,7 @@ Two of are interesting in particular:
 
 Start your favorite browser and have a look at what we can do. :)
 You will see that we provide basic frontend implementations of services the appserver runtime provides.
-If you want to use these services yourself you should have a look into the code of our apps and read about [app development](<#app-development>)
+If you want to use these services yourself you should have a look into the code of our apps and read about [app development](#app-development)
 
 You might be curious about the different port we use.
 Per default the appserver will open several ports at which it's services are available. As we do not want to block (or be blocked by) other services we use ports of a higher range.
