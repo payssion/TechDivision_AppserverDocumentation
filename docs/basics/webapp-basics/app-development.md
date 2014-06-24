@@ -24,7 +24,7 @@ By default the appserver is running on port 9080. Therefore head over to ``127.0
 name in the url, if you have chosen something else as the name, use it instead of *myfirstapp*.
 The basic app stub should be visible.
 
-![myfirstapp landing page](../../images/myfirstapp.png)
+![myfirstapp landing page](myfirstapp.png)
 
 Let's look into some source code to get to know where the `.do` comes from. Open up your webapps folder ``webapps/myfirstapp``
 in your favourite editor. You will see that the structure of the web application is similar to webapp structures of [Tomcat](<http://en.wikipedia.org/wiki/Apache_Tomcat>) or WildFly. 
