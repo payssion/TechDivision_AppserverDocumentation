@@ -13,9 +13,13 @@ This structure will be based on the thoughts illustrated by the example below:
 `.0` = BUILD number (Bugfixes)
 
 As you can see every digit of the version number has its own meaning of severity related to it.
-Every change within the related severity breaking BACKWARDS COMPATIBILITY MUST increment the version.
+These severity levels are further defined within our [glossary](glossary.md). There you might check which changes
+should increment which digit.
 
-The mentioned severity levels are also defined within our [glossary](glossary.md).
+Basically every change related to a certain severity level MUST increment the related version number digit. There are
+some exceptions where changes might also increment digits of a *higher* severity.
+These exceptions mostly boil down to breaking BACKWARDS COMPATIBILITY which *always* MUST result in changes in either
+ARCHITECTURE or MAJOR severity version number digits.
 
 ## Some examples
 
