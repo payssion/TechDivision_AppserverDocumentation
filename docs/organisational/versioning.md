@@ -17,8 +17,8 @@ These severity levels are further defined within our [glossary](glossary.md). Th
 should increment which digit.
 
 Basically every change related to a certain severity level MUST increment the related version number digit. There are
-some exceptions where changes might also increment digits of a *higher* severity.
-These exceptions mostly boil down to breaking BACKWARDS COMPATIBILITY which *always* MUST result in changes in either
+some exceptions where changes might also increment digits of a **higher** severity.
+These exceptions mostly boil down to breaking BACKWARDS COMPATIBILITY which **always** MUST result in changes in either
 ARCHITECTURE or MAJOR severity version number digits.
 
 ## Some examples
